@@ -23,6 +23,10 @@ function run() {
     --env ROOT_URL=$ROCKETCHAT_URL \
     --link magic-mongodb:db \
     rocket.chat
+
+  ip
+
+  echo "started docker container $CONTAINER_NAME"
 }
 
 
